@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:id="@+id/click"
+    tools:context=".LugarFragment"
+    android:background="@color/orange"
+    >
+
+    <TextView
+        android:id="@+id/tUbicacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ubica"
+        android:textSize="27sp"
+        android:background="@color/brown"
+        android:textColor="@color/white"
+
+        />
+
+
+</LinearLayout>
